@@ -1,6 +1,6 @@
 # CSE-220-Homework4
-Name: ________
-ID: ##########
+Name: Guo Chen
+ID: 115922846
 
 This is a program that encrypts/decrypts alphanumerical messages using the Ceasar Cipher Algorithm. You can skip over/ ignore non alphanumeric characters.
 
@@ -25,19 +25,27 @@ NOTE: All test cases are tested using Criterion. There is no main.c file. To tes
 
 ## int encrypt(const char *plaintext, char *ciphertext, int key)
 
-    Purpose:
+    Purpose: to perform the caesar cipher encryption on strings, we right shift each character's by key positions. 
 
-    Parameters:
+    Parameters: plaintext - the string we are to encrypt
+                ciphertext - the string the function writes into as it does the encryption with the plaintext
+                key - how much to shift the characters by 
 
-    Return Value:
+    Return Value: the sucessful number of characters that were encrypted (or 0 if plaintext length is 0 or all alphanumerics)
+                  -1 if we couldn't encode eom marker
+                  -2 if any parameter is null 
 
 ## int decrypt(const char *ciphertext, char *plaintext, int key) 
 
-    Purpose:
+    Purpose: to perform the caesar cipher decryption on strings, we left shift each character's by key positions. 
      
-    Parameters:
+    Parameters: plaintext - the string we are to encrypt
+                ciphertext - the string the function writes into as it does the encryption with the plaintext
+                key - how much to shift the characters by 
     
-    Return Value:
+    Return Value: the sucessful number of characters that were encrypted (or 0 if plaintext length is 0 or all alphanumerics)
+                  -1 if ciphertext is mising EOM, ciphertext is invalid
+                  -2 if any parameter is NULL
 
  ## Your Helper function (arguments,...)
 

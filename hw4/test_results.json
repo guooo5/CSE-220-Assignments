@@ -1,0 +1,112 @@
+{
+  "id": "Criterion v2.4.1",
+  "passed": 17,
+  "failed": 0,
+  "errored": 0,
+  "skipped": 0,
+  "test_suites": [
+    {
+      "name": "student_suite",
+      "passed": 13,
+      "failed": 0,
+      "errored": 0,
+      "skipped": 0,
+      "tests": [
+        {
+          "name": "encrypt_wrap",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "encrypt_null_input",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "encrypt_mixed_letters",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "encrypt_large_key",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "encrypt_key_zero",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "encrypt_insufficient_memory",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "encrypt_empty_string",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "encrypt_basic_abc",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "decrypt_wrap",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "decrypt_null_input",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "decrypt_mixed_letters",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "decrypt_empty_marker",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "decrypt_basic_cde",
+          "assertions": 2,
+          "status": "PASSED"
+        }
+      ]
+    },
+    {
+      "name": "base_suite",
+      "passed": 4,
+      "failed": 0,
+      "errored": 0,
+      "skipped": 0,
+      "tests": [
+        {
+          "name": "encrypt_full_msg_numbers",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "encrypt_full_msg",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "decrypt_full_msg_numbers",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "decrypt_full_msg",
+          "assertions": 2,
+          "status": "PASSED"
+        }
+      ]
+    }
+  ]
+}
