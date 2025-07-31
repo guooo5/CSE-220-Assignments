@@ -1,0 +1,142 @@
+{
+  "id": "Criterion v2.4.1",
+  "passed": 23,
+  "failed": 0,
+  "errored": 0,
+  "skipped": 0,
+  "test_suites": [
+    {
+      "name": "student_suite",
+      "passed": 9,
+      "failed": 0,
+      "errored": 0,
+      "skipped": 0,
+      "tests": [
+        {
+          "name": "transpose_case_zero_dim",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "transpose_case_oversized",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "multiplication_case_zero_dim",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "multiplication_case_single_cell",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "SparseMatrix_single_row",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "SparseMatrix_not_sparse_3x3",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "SparseMatrix_notSparse",
+          "assertions": 1,
+          "status": "PASSED"
+        },
+        {
+          "name": "Addition_incompatible_too_small",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "Addition_compatible_oversized",
+          "assertions": 2,
+          "status": "PASSED"
+        }
+      ]
+    },
+    {
+      "name": "base_suite",
+      "passed": 14,
+      "failed": 0,
+      "errored": 0,
+      "skipped": 0,
+      "tests": [
+        {
+          "name": "transpose_case_yes",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "transpose_case_no_big",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "transpose_case_no",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "multiplication_case_yes_incorrect",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "multiplication_case_yes_big",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "multiplication_case_yes",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "multiplication_case_no_small",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "multiplication_case_no_big",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "addition_case_yes_small",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "addition_case_yes",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "addition_case_no_small",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "addition_case_no_big",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "addition_case_no",
+          "assertions": 2,
+          "status": "PASSED"
+        },
+        {
+          "name": "SparseMatrix_full",
+          "assertions": 2,
+          "status": "PASSED"
+        }
+      ]
+    }
+  ]
+}
